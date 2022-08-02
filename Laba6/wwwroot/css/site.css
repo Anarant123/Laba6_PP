@@ -1,0 +1,35 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.blok {
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.inp {
+    width: 100%;
+}
+body, nav, footer, input {
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+* {
+    font-family: HELVETICA;
+}

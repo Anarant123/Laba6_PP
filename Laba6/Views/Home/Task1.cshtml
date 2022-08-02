@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Блок 1";
+}
+
+<div>
+    <form method="post">
+        <h1 align = "center">Блок 1</h1>
+        <div>
+            <div class="blok">Введите предложение:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Sentence" value="@ViewBag.Sentence">
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Определить"/>
+            </div>
+            <div class="blok">
+                <lable>Количество пробелов в предложении:</lable>
+                <label>@ViewBag.Count</label>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Блок 3";
+}
+
+<div>
+    <form method="post">
+        <h1 align = "center">Блок 3</h1>
+        <div>
+            <div class="blok">Введите слово:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Word" value="@ViewBag.w"/>
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Проверить"/>
+            </div>
+            <div class="blok">
+                <lable>Ответ:</lable>
+                <label>@ViewBag.Word</label>
+            </div>
+        </div>
+    </form>
+</div>

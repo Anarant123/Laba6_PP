@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Блок 2";
+}
+
+<div>
+    <form method="post">
+        <h1 align = "center">Блок 2</h1>
+        <div>
+            <div class="blok">Введите число N:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="N" value="@ViewBag.n"/>
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Вычислить выражение"/>
+            </div>
+            <div class="blok">
+                <lable>Ответ:</lable>
+                <label>@ViewBag.Result</label>
+            </div>
+        </div>
+    </form>
+</div>
